@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background:  whitesmoke;
+  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 100px;
+  text-align: center;
+  background: #35424a;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0,0,0.1);
+}
+header h1 {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+nav.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  background: #35424a;
+  box-shadow: 0 2px 5px rgba(0, 0,0,0.1);
+}
+nav.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+ color: white;
+}
+nav.navigation a:hover {
+  color: rgb(37, 117, 252);
+}
+nav.navigation .input {
+  padding: 8px 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+ color: white;
+}
+nav.navigation .input:focus {
+  border-color: rgb(37, 117, 252);
+  box-shadow: 0 0 5px rgba(37, 117, 252,0.5);
+  color: black;
+}
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1;
+}
+.main-body {
+  flex: 1;
+  border: 2px solid black;
+  padding: 15px;
+  line-height: 1.6;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0,0,0.1);
+}
+.main-body section {
+  margin-bottom: 15px;
+}
+.main-body h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+.main-body a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: rgb(37, 117, 252);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+.main-body a:hover {
+  background: rgb(0, 70, 200);
+}
+aside {
+  flex: 2;
+  border: 2px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+aside iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background:  #35424a;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0,0.1);
+ color: #fff;
+  
+}
+footer #home {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  color: white;
+  }
+footer a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #fff;
+}
+footer a:hover {
+ color: rgb(44, 122, 200);
+  
+}
+footer p {
+  font-size: 0.8rem;
+ color: #fff;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
